@@ -1,0 +1,8 @@
+.welcome-main {
+  background: asset-url('camera.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
