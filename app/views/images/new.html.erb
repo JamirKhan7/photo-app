@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-lg-8 col-md-9">
+
+    <% content_for :title, "New image" %>
+
+    <h1 class="h4">New image</h1>
+
+    <%= render "form", image: @image %>
+
+    <br>
+
+    <div>
+      <%= link_to "Back to images", images_path, class: "link-underline-light" %>
+    </div>
+  </div>
+</div>
